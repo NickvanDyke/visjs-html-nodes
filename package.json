@@ -1,6 +1,6 @@
 {
   "name": "visjs-html-nodes",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Bind arbitrary HTML elements to vis.js nodes",
   "main": "src/index.js",
   "scripts": {

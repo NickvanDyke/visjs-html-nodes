@@ -8,15 +8,15 @@ export const bind = (network, getElementForNode) => {
   // True solution would be to update the `graph` data
   // with the new node sizes, but that gets messier.
   network.on("initRedraw", () => {
-    Object.values(network.body.nodes)
-      .forEach((node) => {
-        const element = getElementForNode(node);
-        if (!element) return;
+    Object.values(network.body.nodes).forEach((node) => {
+      const element = getElementForNode(node);
+      if (!element) return;
 
-        const { width, height } = DOMtoCanvasDimensions(network, element);
-        node.shape.width = width;
-        node.shape.height = height;
-      });
+      const { width, height } = DOMtoCanvasDimensions(network, element);
+      element.style.position = "absolute";
+      node.shape.width = width;
+      node.shape.height = height;
+    });
   });
 
   // Bind HTML element positions to nodes
@@ -24,7 +24,9 @@ export const bind = (network, getElementForNode) => {
     Object.values(network.body.nodes).forEach((node) => {
       const element = getElementForNode(node);
       if (!element) return;
+
       const { left, top } = canvasToDOMposition(network, node, element);
+      element.style.position = "absolute";
       element.style.left = left;
       element.style.top = top;
     });
