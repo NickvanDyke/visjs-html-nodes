@@ -1,6 +1,6 @@
 {
   "name": "visjs-html-nodes",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Bind arbitrary HTML elements to vis.js nodes",
   "main": "src/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "visjs-html-nodes"
+    "url": "https://github.com/NickvanDyke/visjs-html-nodes.git"
   },
   "author": "Nick van Dyke",
   "license": "ISC"
