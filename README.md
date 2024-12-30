@@ -15,6 +15,8 @@ You must provide it your vis.js network and a function that finds your correspon
 
 I implemented this for a pet project, [Wanna](https://wanna.social). You can see it in action there!
 
+![image](https://github.com/user-attachments/assets/b1ed14a7-e3a3-4e7f-a739-b8cc4d484c1c)
+
 ## Usage
 
 ```javascript
