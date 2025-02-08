@@ -11,6 +11,12 @@ To do this, it:
 
 You must provide it your vis.js network and a function that finds your corresponding HTML element for a given vis.js node.
 
+## Install
+
+```
+npm i visjs-html-nodes
+```
+
 ## Demo
 
 I implemented this for a pet project, [Wanna](https://wanna.social). You can see it in action there!
