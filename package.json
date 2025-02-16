@@ -1,7 +1,9 @@
 {
   "name": "visjs-html-nodes",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Bind arbitrary HTML elements to vis.js nodes",
+  "author": "Nick van Dyke",
+  "license": "ISC",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +12,16 @@
     "type": "git",
     "url": "https://github.com/NickvanDyke/visjs-html-nodes.git"
   },
-  "author": "Nick van Dyke",
-  "license": "ISC"
+  "keywords": [
+    "vis.js",
+    "visjs",
+    "vis",
+    "visualization",
+    "javascript",
+    "html",
+    "nodes",
+    "network",
+    "diagram",
+    "graph"
+  ]
 }
